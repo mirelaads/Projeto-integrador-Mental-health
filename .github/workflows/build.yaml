@@ -1,0 +1,63 @@
+name: Build and Dockerize
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '22'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build project
+      run: npm run build
+
+    - name: Log Secrets
+      shell: bash
+      run: echo "log secrets ${{ secrets.AWS_REGION }}"
+    
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-region: ${{ secrets.AWS_REGION }}
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+    - name: Log in to Amazon ECR
+      uses: aws-actions/amazon-ecr-login@v2
+
+    - name: Sanitize tag
+      id: tag
+      run: |
+        # Replace any '/' with '-' (if needed)
+        TAG=${GITHUB_REF_NAME//\//-}
+        echo "TAG=${TAG}" >> $GITHUB_ENV
+        echo "TAG is ${TAG}"
+
+    - name: Create .env file
+      shell: bash
+      run: |
+        echo "PORT=${{ secrets.PORT }}" >> .env
+        echo "JWT_SECRET=${{ secrets.JWT_SECRET }}" >> .env
+        echo "JWT_REFRESH_SECRET=${{ secrets.JWT_REFRESH_SECRET }}" >> .env
+        echo "MAILERSEND_URL=${{ secrets.MAILERSEND_URL }}" >> .env
+        echo "EMAIL_USER=${{ secrets.EMAIL_USER }}" >> .env
+        echo "API_KEY=${{ secrets.API_KEY }}" >> .env
+        
+
+    - name: Build Docker image
+      run: docker build -t ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/psico-backend-node-ts:${{ env.TAG }} .
+
+    - name: Push Docker image to Amazon ECR
+      run: docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/psico-backend-node-ts:${{ env.TAG }}
