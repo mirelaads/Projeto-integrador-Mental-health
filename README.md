@@ -1,4 +1,4 @@
-# Psico Faculdade Backend
+# PI saúde-metal Backend
 
 ## Descrição
 Este é o backend do projeto Psico Faculdade, desenvolvido em Node.js com TypeScript. Ele fornece APIs para gerenciar usuários, profissionais, especialidades e agendamentos.
@@ -12,8 +12,8 @@ Este é o backend do projeto Psico Faculdade, desenvolvido em Node.js com TypeSc
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/psico_faculdade.git
-    cd psico_faculdade/psico-backend-node-ts
+    git clone https://github.com/seu-usuario/mental_health.git
+    cd mental_health/psico-backend-node-ts
     ```
 
 2. Instale as dependências:
