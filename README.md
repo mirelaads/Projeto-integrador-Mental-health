@@ -1,7 +1,7 @@
 # PI saúde-metal Backend
 
 ## Descrição
-Este é o backend do projeto Psico Faculdade, desenvolvido em Node.js com TypeScript. Ele fornece APIs para gerenciar usuários, profissionais, especialidades e agendamentos.
+Este é o backend do projeto Mental Health, desenvolvido em Node.js com TypeScript. Ele fornece APIs para gerenciar usuários, profissionais, especialidades e agendamentos.
 
 ## Pré-requisitos
 - Node.js (versão 14 ou superior)
