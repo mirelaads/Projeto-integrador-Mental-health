@@ -1,15 +1,15 @@
-<h1 align="center">Saúde Mental</h1>
+<h1 align="center"> Ψ Saúde Mental Ψ </h1>
 
 Sobre o projeto
 
 O Mental Health é um aplicativo mobile inovador desenvolvido como parte do projeto integrador do Senac, com o objetivo de facilitar o acesso a serviços de saúde mental e promover o bem-estar da população.
-
-🔘 Objetivo do projeto
+<br/>
+<h2>🔘 Objetivo do projeto</h2>
 
 Este projeto visa criar um aplicativo intuitivo e acessível que conecte usuários a profissionais de saúde mental, como psicólogos e psiquiatras. O aplicativo oferece funcionalidades como agendamento de consultas, busca por profissionais e gerenciamento de perfil, tudo em uma interface amigável e fácil de usar.
 
 
-Nossas Funcionalidades:
+<h2>Nossas Funcionalidades:</h2>
 
 * Agendamento simplificado: Agende consultas com profissionais de saúde mental de forma rápida e fácil.
 * Busca por profissionais: Encontre profissionais com base em especialidade, localização e outros critérios.
@@ -37,10 +37,7 @@ Backend:
 
 O layout do aplicativo foi desenvolvido no Figma:
 [Acessar Layout Figma](https://www.figma.com/design/3J9Rl4RfeByaWwRGKadKTZ/Mental-Health?node-id=0-1&t=uGS3lHJyGkV0H01d-1)
-
-
-
-
+<br/>
 ## Instalação
 
 1. Clone o repositório (BACKEND):
@@ -89,7 +86,7 @@ Sinta-se à vontade para contribuir com o projeto. Faça um fork do repositório
 
 ## Licença
 Este projeto está licenciado sob a licença MIT.
-
+<br/>
 
 <h2>👥 Colaboradores</h2>
 
@@ -120,3 +117,13 @@ Este projeto está licenciado sob a licença MIT.
     <a href="https://github.com/ThiagoDuarteDEV">Thiago Duarte</a>
   </div>
 </div>
+<br/>
+👥 **Participação dos Colaboradores**
+
+| Colaborador                                                 | Função                                            |
+| ----------------------------------------------------------- | ------------------------------------------------- |
+| [mirelaads](https://github.com/mirelaads)                   | Responsável Backend                               |
+| [dkexs](https://github.com/dkexs)                           | Responsável Frontend                              |
+| [LeoBaganha](https://github.com/leobaganha)                 | Responsável Backend                               |
+| [Danielferreira](https://github.com/DanielFerreiraNeves)    | Template Figma e Revisão da primeira parte        |
+| [Thiagoduarte](https://github.com/ThiagoDuarteDEV)          | Template figma e vídeo                            |
