@@ -8,6 +8,7 @@ O Mental Health é um aplicativo mobile inovador desenvolvido como parte do proj
 
 Este projeto visa criar um aplicativo intuitivo e acessível que conecte usuários a profissionais de saúde mental, como psicólogos e psiquiatras. O aplicativo oferece funcionalidades como agendamento de consultas, busca por profissionais e gerenciamento de perfil, tudo em uma interface amigável e fácil de usar.
 
+
 Nossas Funcionalidades:
 
 * Agendamento simplificado: Agende consultas com profissionais de saúde mental de forma rápida e fácil.
@@ -15,6 +16,7 @@ Nossas Funcionalidades:
 * Perfil do usuário: Gerencie seus dados, histórico de consultas e informações relevantes.
 * Autenticação segura: Cadastro, login e recuperação de senha com validação por e-mail e tokens JWT.
 * Gerenciamento de profissionais e especialidades: Ferramentas para administradores gerenciarem a plataforma.
+
 
 Tecnologias Utilizadas:
 
@@ -30,12 +32,13 @@ Backend:
 * SQLite
 * JWT
 
+
 <h2>🎨 Layout</h2>
 
 O layout do aplicativo foi desenvolvido no Figma:
 [Acessar Layout Figma](https://www.figma.com/design/3J9Rl4RfeByaWwRGKadKTZ/Mental-Health?node-id=0-1&t=uGS3lHJyGkV0H01d-1)
 
-<a href="[https://www.figma.com/seu-projeto](https://www.figma.com/design/3J9Rl4RfeByaWwRGKadKTZ/Mental-Health?node-id=0-1&t=uGS3lHJyGkV0H01d-1)" style="background-color: #238636; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Acessar Layout Figma</a>
+
 
 
 ## Instalação
@@ -88,30 +91,30 @@ Sinta-se à vontade para contribuir com o projeto. Faça um fork do repositório
 Este projeto está licenciado sob a licença MIT.
 
 
-👥 Colaboradores
+<h2>👥 Colaboradores</h2>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px;">
-  <div>
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+  <div style="text-align: center; margin: 10px;">
     <img src="https://avatars.githubusercontent.com/u/142458518?v=4" alt="Mirela Souza" style="width: 100px; height: 100px; border-radius: 50%;">
     <br>
     <a href="https://github.com/mirelaads">Mirela Souza</a>
   </div>
-  <div>
+  <div style="text-align: center; margin: 10px;">
     <img src="https://avatars.githubusercontent.com/u/163220040?v=4" alt="Leo Baganha" style="width: 100px; height: 100px; border-radius: 50%;">
     <br>
     <a href="https://github.com/leobaganha">Leo Baganha</a>
   </div>
-  <div>
-    <img src="[URL_DA_FOTO_MARCUS](https://avatars.githubusercontent.com/u/86894587?v=4)" alt="Marcus Vinicius" style="width: 100px; height: 100px; border-radius: 50%;">
+  <div style="text-align: center; margin: 10px;">
+    <img src="https://avatars.githubusercontent.com/u/86894587?v=4" alt="Marcus Vinicius" style="width: 100px; height: 100px; border-radius: 50%;">
     <br>
     <a href="https://github.com/dkexs">Marcus Vinicius</a>
   </div>
-  <div>
+  <div style="text-align: center; margin: 10px;">
     <img src="https://avatars.githubusercontent.com/u/68756099?v=4" alt="Daniel Ferreira" style="width: 100px; height: 100px; border-radius: 50%;">
     <br>
     <a href="https://github.com/DanielFerreiraNeves">Daniel Ferreira</a>
   </div>
-  <div>
+  <div style="text-align: center; margin: 10px;">
     <img src="https://avatars.githubusercontent.com/u/115818890?v=4" alt="Thiago Duarte" style="width: 100px; height: 100px; border-radius: 50%;">
     <br>
     <a href="https://github.com/ThiagoDuarteDEV">Thiago Duarte</a>
