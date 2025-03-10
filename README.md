@@ -1,4 +1,4 @@
-# PI saúde-metal Backend
+<p align="center">Saúde Mental</p>
 
 ## Descrição
 Este é o backend do projeto Mental Health, desenvolvido em Node.js com TypeScript. Ele fornece APIs para gerenciar usuários, profissionais, especialidades e agendamentos.
