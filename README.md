@@ -1,6 +1,6 @@
 <h1 align="center">Saúde Mental</h1>
 
-<p align="center">Sobre o projeto:</p>
+Sobre o projeto
 
 O Mental Health é um aplicativo mobile inovador desenvolvido como parte do projeto integrador do Senac, com o objetivo de facilitar o acesso a serviços de saúde mental e promover o bem-estar da população.
 
@@ -10,27 +10,27 @@ Este projeto visa criar um aplicativo intuitivo e acessível que conecte usuári
 
 Nossas Funcionalidades:
 
-Agendamento simplificado: Agende consultas com profissionais de saúde mental de forma rápida e fácil.
-Busca por profissionais: Encontre profissionais com base em especialidade, localização e outros critérios.
-Perfil do usuário: Gerencie seus dados, histórico de consultas e informações relevantes.
-Autenticação segura: Cadastro, login e recuperação de senha com validação por e-mail e tokens JWT.
-Gerenciamento de profissionais e especialidades: Ferramentas para administradores gerenciarem a plataforma.
+* Agendamento simplificado: Agende consultas com profissionais de saúde mental de forma rápida e fácil.
+* Busca por profissionais: Encontre profissionais com base em especialidade, localização e outros critérios.
+* Perfil do usuário: Gerencie seus dados, histórico de consultas e informações relevantes.
+* Autenticação segura: Cadastro, login e recuperação de senha com validação por e-mail e tokens JWT.
+* Gerenciamento de profissionais e especialidades: Ferramentas para administradores gerenciarem a plataforma.
 
 Tecnologias Utilizadas:
 
 Frontend:
-React Native
-Expo
-TypeScript
-Componentes UI (Button, TextInput, etc.)
+* React Native
+* Expo
+* TypeScript
+* Componentes UI (Button, TextInput, etc.)
 
 Backend:
-Node.js
-TypeScript
-SQLite
-JWT
+* Node.js
+* TypeScript
+* SQLite
+* JWT
 
-🎨 Layout
+<h2>🎨 Layout</h2>
 
 O layout do aplicativo foi desenvolvido no Figma:
 [Acessar Layout Figma](https://www.figma.com/design/3J9Rl4RfeByaWwRGKadKTZ/Mental-Health?node-id=0-1&t=uGS3lHJyGkV0H01d-1)
@@ -92,18 +92,28 @@ Este projeto está licenciado sob a licença MIT.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px;">
   <div>
+    <img src="https://avatars.githubusercontent.com/u/142458518?v=4" alt="Mirela Souza" style="width: 100px; height: 100px; border-radius: 50%;">
+    <br>
     <a href="https://github.com/mirelaads">Mirela Souza</a>
   </div>
   <div>
+    <img src="https://avatars.githubusercontent.com/u/163220040?v=4" alt="Leo Baganha" style="width: 100px; height: 100px; border-radius: 50%;">
+    <br>
     <a href="https://github.com/leobaganha">Leo Baganha</a>
   </div>
   <div>
+    <img src="[URL_DA_FOTO_MARCUS](https://avatars.githubusercontent.com/u/86894587?v=4)" alt="Marcus Vinicius" style="width: 100px; height: 100px; border-radius: 50%;">
+    <br>
     <a href="https://github.com/dkexs">Marcus Vinicius</a>
   </div>
-    <div>
+  <div>
+    <img src="https://avatars.githubusercontent.com/u/68756099?v=4" alt="Daniel Ferreira" style="width: 100px; height: 100px; border-radius: 50%;">
+    <br>
     <a href="https://github.com/DanielFerreiraNeves">Daniel Ferreira</a>
   </div>
-    <div>
+  <div>
+    <img src="https://avatars.githubusercontent.com/u/115818890?v=4" alt="Thiago Duarte" style="width: 100px; height: 100px; border-radius: 50%;">
+    <br>
     <a href="https://github.com/ThiagoDuarteDEV">Thiago Duarte</a>
   </div>
-  </div>
+</div>
