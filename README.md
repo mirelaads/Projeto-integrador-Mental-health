@@ -1,4 +1,4 @@
-<h1 align="center"> Ψ Saúde Mental Ψ </h1>
+<h1 align="center"> Ψ Mental Health Ψ </h1>
 
 Sobre o projeto
 
